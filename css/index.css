@@ -166,7 +166,7 @@ form input{
    
 }
 .container{
-    box-shadow: 5px 2px 11px gray;
+    box-shadow: 5px 2px 11px #c1c1c1;
     /* inset 0 0em 3em rgba(0, 0, 0, 0.1); */
     border-radius: 5px;
 }
