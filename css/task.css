@@ -1,0 +1,147 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 10px;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow: auto;
+}
+
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.inline-block{
+    display: inline-block;
+}
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+.p-fixed{
+    position: fixed;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+.clearfix{
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.p-2{
+    padding: 1rem 2rem;
+}
+.float-right {
+    float: right;
+}
+.line-height{
+    line-height: 4rem;
+}
+.text-center{
+    text-align: center;
+}
+.text-1{
+    font-size: 1.6rem;
+}
+.text-2 {
+    font-size: 2rem;
+}
+
+.text-3 {
+    font-size: 3rem;
+}
+
+.text-4 {
+    font-size: 4rem;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-purple{
+    background-color: purple;
+}
+.t-blue{
+    color:blue;
+}
+.t-white{
+    color: white;
+}
+.t-purple{
+    color: purple;
+}
+.btn-free{
+    padding: 1rem 1rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+}
+.btn-sale{
+    padding: 1rem 1rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+}
+header{
+    padding: 2rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+header li{
+    list-style: none;
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+header li> a{
+    text-decoration: none;
+    color: black;
+}
+header a{
+        text-decoration: none;
+        color: black;
+}
+.slack-logo{
+    vertical-align: middle;
+}
+.search-svg{
+    vertical-align:middle;
+}
+/* article{
+    height: 100vh;
+} */
+table{
+    border-spacing: 15px 0px;
+    width: 100%;
+}
+table th {
+    padding: 1rem 3rem;
+}
+table td{
+    padding: 1rem 2rem;
+    text-align: center;
+
+    /* border: 1px solid black; */
+}
+.bg-grey{
+    background-color: rgb(204, 196, 196);
+}
+td{
+    width: 20%;
+}
