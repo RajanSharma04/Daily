@@ -222,3 +222,14 @@ ul a:active{
 .toggle-switch input:checked + label:before{
   left: 25px;
 }
+.btn{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: rotate(270deg);
+    left: -110px;
+}
+.btn:hover{
+    color: white;
+    background: black;
+}
